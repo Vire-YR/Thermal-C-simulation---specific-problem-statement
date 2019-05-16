@@ -1,0 +1,8 @@
+set xlabel "Distance"
+set ylabel "Temperature(celcius)"
+set title "Temperature graph of the bar"
+set xrange[0:50]
+set yrange[0:530]
+set grid
+set xtics 10
+plot "data.dat" using 1:2 title "Temperature" with lines lc "red" lw 2
